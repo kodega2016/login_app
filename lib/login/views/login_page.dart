@@ -71,7 +71,7 @@ class LoginForm extends StatelessWidget {
                       errorText: state.password.displayError != null
                           ? "Password is invalid"
                           : null,
-                      labelText: 'Passowrd',
+                      labelText: 'Password',
                     ),
                   );
                 },
